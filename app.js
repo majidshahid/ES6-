@@ -228,15 +228,48 @@
 //    console.log(new detail("honda",200,20000000,"H"))     
 
 
-            // IN
-// 10 for in loop 
+        
+                // 10 for in loop 
+                    // IN
+
 // var a = [1,2,3,4,5];
 // for(let x in a ){
 //     console.log(x)
 // }
 
     // OF
+
 // let z = [10,11,12];
 // for(let elem of z ){
 //     console.log(elem)
 // }
+
+
+
+// 11 call back function 
+
+// function foo (a){
+//   setTimeout(()=>{
+// var name = "umar zahid "
+// a(name)
+//   },2000)  
+// }
+// foo(function (nam){
+// console.log(nam)
+// })
+
+
+
+
+// var  foo=(one)=>{
+//     setTimeout(()=>{
+// var a = "majid shahid";
+// one(a)
+
+//     },2000)
+// }
+
+
+// foo((b)=>{
+// console.log(b)
+// })
