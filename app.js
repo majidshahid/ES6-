@@ -273,3 +273,30 @@
 // foo((b)=>{
 // console.log(b)
 // })
+
+
+
+        //  curying   
+
+// function foo(a){
+//     return function foo1(b){
+// return function foo2(c){
+//     return(a+b+c)
+// }
+//     }
+// }
+
+
+// console.log(foo(1)(2)(3))
+
+
+// let a =(a)=>{
+//     return (b)=>{
+//         return(c)=>{
+//             return(a+b+c)
+//         }
+//     }
+// }
+// console.log(a(2)(4)(8))
+
+
